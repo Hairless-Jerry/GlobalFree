@@ -40,7 +40,7 @@ jobs:
         # 设置环境变量
         env:
           PUSHPLUS: ${{ secrets.PUSHPLUS }}
-          COOKIES: ${{ secrets.COOKIES }}
+          COOKIES: ${{ secrets.GLADOS_COOKIES }}
         # 保持 action 活跃
       - name: keep alive action
         uses: gautamkrishnar/keepalive-workflow@master # using the workflow with default settings
