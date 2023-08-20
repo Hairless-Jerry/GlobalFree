@@ -4,7 +4,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 
 puppeteer.use(StealthPlugin());
 
-const INFO = {
+const INFO = { 
     account: '账号',
     leftDays: '天数',
     checkInMessage: '签到情况',
